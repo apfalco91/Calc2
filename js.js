@@ -35,14 +35,6 @@ function populatehtml(operation){
   var input2 = document.getElementById('second').value;
   var output = operation(input1, input2);
   document.getElementById('result').innerText += output;
-
-  function rightRide(){
-  if(monthlyRide > 116.50) {
-  alert("You should buy a monthly MetroCard!");
-  } 
-  else {
-    alert("You should pay per ride!");
-  }
 }   
 
   // hint: define three variables: input1, input2, and output
